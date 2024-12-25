@@ -19,7 +19,7 @@ Optional [ROUTE] '/me'
 [Response] => Dicoding username.
 */
 app.get('/me', (req, res) => {
-  res.send('Muammar Bahalwan.\n');
+  res.send('muammar_bahalwan\n');
 });
 
 app.listen(PORT, HOST);
